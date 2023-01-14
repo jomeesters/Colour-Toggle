@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Colour Toggle</title>
+        <script defer src="javascript/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style_css/style.css" />
+    </head>
+    <body>
+        <div id="menu-container">
+            <img src="image/menu_icon.png" 
+            id="menu-button" 
+            class="menu-icon"
+            alt="menu icon" />
+            <div id="menu" class="menu-closed">
+                <form>
+                    <ul id="menu-ul">
+                        <li class="home"><input checked type="radio" name="chosenColour" id="home"/>HOME</li>
+                        <li class="purple"><input checked type="radio" name="chosenColour" id="purple"/>PURPLE</li>
+                        <li class="yellow"><input checked type="radio" name="chosenColour" id="yellow"/>YELLOW</li>
+                        <li class="magenta"><input checked type="radio" name="chosenColour" id="magenta"/>MAGENTA</li>
+                        <li class="cobalt"><input checked type="radio" name="chosenColour" id="cobalt"/>COBALT</li>
+                        <li class="red"><input checked type="radio" name="chosenColour" id="red"/>RED</li>
+                        <li class="green"><input checked type="radio" name="chosenColour" id="green"/>GREEN</li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <div id="colour-container">
+            <div id="colour-name">
+                <h1>HOME</h1>
+            </div>
+        </div>
+    </body>
+</html>

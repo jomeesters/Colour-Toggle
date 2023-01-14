@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Be Vietnam Pro');
+
+body {
+    background-color: #f6debe;
+    font-family: 'Be Vietnam Pro';
+}
+
+/* Menu */
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    padding: 20px 0 10px 20px;
+}
+.menu-icon:hover {
+    cursor: pointer;
+}
+.menu-closed {
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+    height: 0;
+}
+.menu-collapsed {
+    height: 370px;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+}
+#menu-container {
+    position: absolute;
+    width: 200px;
+    height: 370px;
+    top: 0;
+}
+
+/* Menu List */
+ul {
+    list-style: none;
+    padding: 0 0 0 22px;
+    margin-top: 0;
+}
+ul li {
+    margin-bottom: 2px;
+    padding: 5px;
+    border: 1px none white;
+    width: 130px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+ul li input {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+ul li input:hover {
+    cursor: pointer;
+}
+
+/* Colour Name */
+#colour-container {
+    text-align: center;
+}
+#colour-name {
+    margin-top: 350px;
+}
+#colour-name h1 {
+    font-size: 4rem;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+
+/* Colours */
+.home {
+    background-color: #f6debe;
+}
+.purple {
+    background-color: #3d1766;
+}
+.yellow {
+    background-color: #ffde00;
+}
+.magenta {
+    background-color: #d800a6;
+}
+.cobalt {
+    background-color: #0014ff;
+}
+.red {
+    background-color: #dc0000;
+}
+.green {
+    background-color: #379518;
+}
